@@ -15,7 +15,6 @@ for epoch in range(epochs):
   gradient  = 3*a *x**2 + 2*b*x+c
   if gradient < -1:
     gradient =0
-    
     x -=  learning_rate *gradient
 
 print(f"The solution for x is approximately : {x}")
